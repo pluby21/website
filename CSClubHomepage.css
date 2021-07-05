@@ -1,0 +1,53 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+nav ul{
+    list-style-type:none;
+    text-align:center;
+}
+
+nav ul li {
+    width:8rem;
+    display:inline-block;
+    padding:1rem;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right:4rem;
+    outline:.125rem solid black;
+}
+
+nav ul li:last-child {
+    margin-right:0rem;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+    font-weight: bold;
+}
+
+#meetings {
+    background-color:#AA00FF;
+}
+
+#projects {
+    background-color:#55FF00;
+}
+
+#competitions {
+    background-color:#30AAE8;
+}
+
+#outreach {
+    background-color:#FC02A9;
+}
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+    padding:0rem 0rem 2rem 0rem;
+  }
